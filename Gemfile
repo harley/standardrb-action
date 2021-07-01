@@ -3,13 +3,13 @@
 source "https://rubygems.org"
 
 group :development do
-  gem "github_changelog_generator", "~> 1.15.0"
-  gem "standard", "~> 0.1.5"
+  gem "github_changelog_generator", "~> 1.16", ">= 1.16.4"
+  gem "standard", "~> 1.1", ">= 1.1.3"
 end
 
 group :test do
-  gem "json", "~> 2.2"
-  gem "pry", "~> 0.12.2"
-  gem "rspec", "~> 3.9.0"
-  gem "webmock", "~> 3.7", ">= 3.7.6"
+  gem "json", "~> 2.5", ">= 2.5.1"
+  gem "pry", "~> 0.14.1"
+  gem "rspec", "~> 3.10"
+  gem "webmock", "~> 3.13"
 end
