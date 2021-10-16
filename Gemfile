@@ -4,7 +4,7 @@ source "https://rubygems.org"
 
 group :development do
   gem "github_changelog_generator", "~> 1.16", ">= 1.16.4"
-  gem "standard", "~> 1.1", ">= 1.1.3"
+  gem "standard", '~> 1.3'
 end
 
 group :test do
